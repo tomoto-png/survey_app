@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Survey</title>
+    <style>
+        .container {
+                max-inline-size: 800px; /* 最大幅を800pxに設定 */
+                inline-size: 100%; /* 幅を100%に設定して親要素に合わせる */
+                margin: 50px auto; /* 中央寄せ */
+                padding: 20px; /* 内側の余白 */
+                border-radius: 8px; /* 角を丸くする */
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 軽い影を付ける */
+        }
+        h1 {
+            text-align: center; /* 見出しを中央寄せ */
+            font-size: 25px;
+        }
+        form {
+                display: flex;
+                flex-direction: column;
+        }
+        label {
+                margin-block-end: 5px;
+                font-size: 20px;
+        }
+        input[type="text"], input[type="number"], select {
+                inline-size: 100%; /* 幅を100%に設定 */
+                padding: 8px; /* 内側の余白 */
+                margin-block-end: 5px; /* 下の余白 */
+                border: 1px solid #ddd; /* 枠線の色 */
+                border-radius: 4px; /* 角を丸くする */
+                align-items: center;
+        }
+        input[type="submit"] {
+                background-color: #4CAF50; /* ボタンの背景色 */
+                color: white; /* ボタンの文字色 */
+                border: none; /* 枠線をなくす */
+                padding: 10px 20px; /* 内側の余白 */
+                text-decoration: none; /* 下線をなくす */
+                display: inline-block; /* インラインブロック表示 */
+                font-size: 16px; /* フォントサイズ */
+                margin: 10px 0; /* 上下の余白 */
+                cursor: pointer; /* カーソルをポインターにする */
+                border-radius: 4px; /* 角を丸くする */
+                max-inline-size: 200px;
+        }
+            
+        input[type="submit"]:hover {
+                background-color: #45a049; /* ホバー時の背景色 */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>健康アンケート</h1>
+        <form method="post">
+            <label for="name" aria-label="名前">名前:</label>
+            <input type="text" id="name" name="name" required><br><br>
+    
+            <label for="age">年齢:</label>
+            <input type="number" id="age" name="age" required><br><br>
+    
+            <label for="gender">性別:</label>
+            <select id="gender" name="gender" required>
+                <option value="男性">男性</option>
+                <option value="女性">女性</option>
+            </select><br><br>
+    
+            <label for="height">身長(cm):</label>
+            <input type="number" id="height" name="height" min="50" max="300" required><br><br>
+    
+            <label for="weight">体重(kg):</label>
+            <input type="number" id="weight" name="weight" min="20" max="300" required><br><br>
+    
+            <label for="exercise">運動頻度:</label>
+            <select id="exercise" name="exercise" required>
+                <option value="毎日">毎日</option>
+                <option value="週に3-4回">週に3-4回</option>
+                <option value="週に1-2回">週に1-2回</option>
+                <option value="ほとんどしない">ほとんどしない</option>
+            </select><br><br>
+    
+            <label for="sleep">睡眠時間:</label>
+            <select id="sleep" name="sleep" required>
+                <option value="7時間以上">7時間以上</option>
+                <option value="5-7時間">5-7時間</option>
+                <option value="4-6時間">4-6時間</option>
+                <option value="4時間未満">4時間未満</option>
+            </select><br><br>
+    
+            <label for="diet">食事の質:</label>
+            <select id="diet" name="diet" required>
+                <option value="非常に良い">非常に良い</option>
+                <option value="良い">良い</option>
+                <option value="普通">普通</option>
+                <option value="悪い">悪い</option>
+            </select><br><br>
+    
+            <label for="stress">ストレスの程度:</label>
+            <select id="stress" name="stress" required>
+                <option value="ほとんどない">ほとんどない</option>
+                <option value="少しある">少しある</option>
+                <option value="普通">普通</option>
+                <option value="高い">高い</option>
+            </select><br><br>
+    
+            <label for="eating_out">外食の頻度:</label>
+            <select id="eating_out" name="eating_out" required>
+                <option value="ほとんどしない">ほとんどしない</option>
+                <option value="週に1回">週に1回</option>
+                <option value="週に2-3回">週に2-3回</option>
+                <option value="ほとんど毎日">ほとんど毎日</option>
+            </select><br><br>
+    
+            <label for="water_intake">1日の水分摂取量:</label>
+            <select id="water_intake" name="water_intake" required>
+                <option value="1リットル未満">1リットル未満</option>
+                <option value="1-2リットル">1-2リットル</option>
+                <option value="2-3リットル">2-3リットル</option>
+                <option value="3リットル以上">3リットル以上</option>
+            </select><br><br>
+    
+            <label for="smoking">喫煙習慣:</label>
+            <select id="smoking" name="smoking" required>
+                <option value="なし">なし</option>
+                <option value="時々">時々</option>
+                <option value="毎日">毎日</option>
+                <option value="分からない">分からない</option>
+            </select><br><br>
+    
+            <input type="submit" value="送信">
+        </form>
+    </div>
+    
+</body>
+</html>

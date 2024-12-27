@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .container {
+            max-inline-size: 600px; /* 最大幅を800pxに設定 */
+            inline-size: 100%; /* 幅を100%に設定して親要素に合わせる */
+            margin: 50px auto; /* 中央寄せ */
+            padding: 20px; /* 内側の余白 */
+            border-radius: 8px; /* 角を丸くする */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 軽い影を付ける */
+        }
+        h2 {
+            font-size: 2em; /* フォントサイズを設定 */
+        }
+        p {
+            font-size: 1.2em; /* フォントサイズを設定 */
+            color: #666; /* 文字色をグレーに */
+            margin: 10px 0; /* 上下のマージンを設定 */
+        }
+        .button {
+        display: inline-block;
+        padding: 10px 20px;
+        margin: 10px;
+        font-size: 13px;
+        color: white; /* ボタンの文字色 */
+        background-color: #4CAF50;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+        cursor: pointer;
+        transition: background-color 0.3s; /* 背景色の変化にアニメーションを追加 */
+        text-align: start;
+        }
+
+        /* ボタンのホバー時のスタイル */
+        .button:hover {
+            background-color: #45a049; /* ホバー時の背景色 */
+        }
+        .button-container {
+            display: flex;
+            justify-content: center; /* ボタンを中央に配置 */
+            gap: 10px; /* ボタン間のスペースを設定 */
+        }
+
+        /* ボタンのホバー時のスタイル */
+        .button:hover {
+            background-color: #45a049; /* ホバー時の背景色 */
+        }
+        .button-container {
+            display: flex;
+            justify-content: center; /* ボタンを中央に配置 */
+            gap: 10px; /* ボタン間のスペースを設定 */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>アンケートのご回答ありがとうございます！</h1>
+        <p>健康スコア: {{ score }}/70</p>
+        <p>評価: {{ evaluation }}</p>
+        <p>BMI: {{ bmi }}</p>
+        <p>BMI評価: {{ bmi_evaluation }}</p>
+    
+        <h2>コメント</h2>
+        <p>外食: {{ eating_out_comment }}</p>
+        <p>運動: {{ exercise_comment }}</p>
+        <p>睡眠: {{ sleep_comment }}</p>
+        <p>水分摂取: {{ water_intake_comment }}</p>
+        <p>喫煙: {{ smoking_comment }}</p>
+    <div class="button-container">
+        <p><a href="{{ url_for('health_survey') }}" class="button">アンケートページに戻る</a></p>
+        <p><a href="{{ url_for('analysis') }}" class="button">結果分析ページへ移動</a></p>
+    </div> 
+    </div>
+</body>
+</html>
+
