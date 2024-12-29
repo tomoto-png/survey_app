@@ -16,8 +16,8 @@
     <tr>
         <td colspan="2">
             <div style="display: flex; gap: 10px;">
-                <img width="700" alt="スクリーンショット 2024-12-29 20 35 50" src="https://github.com/user-attachments/assets/41ae3063-6ef1-499e-9be9-18baa25c08f8" />
-                <img width="700" alt="スクリーンショット 2024-12-29 20 39 01" src="https://github.com/user-attachments/assets/c59735ef-331d-400d-a3e0-192d867c070f" />
+                <img width=48%; alt="スクリーンショット 2024-12-29 20 35 50" src="https://github.com/user-attachments/assets/41ae3063-6ef1-499e-9be9-18baa25c08f8" />
+                <img width=48%; alt="スクリーンショット 2024-12-29 20 39 01" src="https://github.com/user-attachments/assets/c59735ef-331d-400d-a3e0-192d867c070f" />
             </div>
         </td>
     </tr>
