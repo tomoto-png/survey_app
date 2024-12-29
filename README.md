@@ -23,8 +23,10 @@
   </tr>
   <tr>
     <td>
-        <img width="870" alt="スクリーンショット 2024-12-29 20 35 50" src="https://github.com/user-attachments/assets/41ae3063-6ef1-499e-9be9-18baa25c08f8" />
-        <img width="921" alt="スクリーンショット 2024-12-29 20 39 01" src="https://github.com/user-attachments/assets/c59735ef-331d-400d-a3e0-192d867c070f" />
+        <div>
+            <img width="870" alt="スクリーンショット 2024-12-29 20 35 50" src="https://github.com/user-attachments/assets/41ae3063-6ef1-499e-9be9-18baa25c08f8" />
+            <img width="921" alt="スクリーンショット 2024-12-29 20 39 01" src="https://github.com/user-attachments/assets/c59735ef-331d-400d-a3e0-192d867c070f" />
+        </div>
     </td>
     <td>
        <img width="1516" alt="スクリーンショット 2024-12-29 20 30 42" src="https://github.com/user-attachments/assets/8d663e22-6b59-4035-a3cf-b6b660ad24fa" />
