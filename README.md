@@ -10,31 +10,29 @@
 - ユーザーがストレスなくアンケートに回答できるよう、シンプルで使いやすいデザインを採用しています。健康に対するポジティブな意識を促すインターフェースを提供しています。
 ## 実際のアプリケーション画像
 <table>
-  <tr>
-    <td>
-      アンケートページ
-    </td>
-    <td>
-      コメントページ
-    </td>
-    <td>
-      過去の結果ページ
-    </td>
-  </tr>
-  <tr>
-    <td>
-        <div>
-            <img width="870" alt="スクリーンショット 2024-12-29 20 35 50" src="https://github.com/user-attachments/assets/41ae3063-6ef1-499e-9be9-18baa25c08f8" />
-        </div>
-        <div>
-            <img width="921" alt="スクリーンショット 2024-12-29 20 39 01" src="https://github.com/user-attachments/assets/c59735ef-331d-400d-a3e0-192d867c070f" />
-        </div>
-    </td>
-    <td>
-       <img width="1516" alt="スクリーンショット 2024-12-29 20 30 42" src="https://github.com/user-attachments/assets/8d663e22-6b59-4035-a3cf-b6b660ad24fa" />
-    </td>
-    <td>
-        <img width="1357" alt="スクリーンショット 2024-12-29 20 43 36" src="https://github.com/user-attachments/assets/957d786b-2d2f-48d2-9ebe-a162d2e34b65" />
-    </td>
-  </tr>
+    <tr>
+        <td colspan="2">アンケートページ</td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <div>
+                <img width="870" alt="スクリーンショット 2024-12-29 20 35 50" src="https://github.com/user-attachments/assets/41ae3063-6ef1-499e-9be9-18baa25c08f8" />
+            </div>
+            <div>
+                <img width="921" alt="スクリーンショット 2024-12-29 20 39 01" src="https://github.com/user-attachments/assets/c59735ef-331d-400d-a3e0-192d867c070f" />
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td>コメントページ</td>
+        <td>過去の結果ページ</td>
+    </tr>
+    <tr>
+        <td>
+            <img width="1516" alt="スクリーンショット 2024-12-29 20 30 42" src="https://github.com/user-attachments/assets/8d663e22-6b59-4035-a3cf-b6b660ad24fa" />
+        </td>
+        <td>
+            <img width="1357" alt="スクリーンショット 2024-12-29 20 43 36" src="https://github.com/user-attachments/assets/957d786b-2d2f-48d2-9ebe-a162d2e34b65" />
+        </td>
+    </tr>
 </table>
